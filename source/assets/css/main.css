@@ -167,3 +167,22 @@ img {
 .share {
 	display: block;
 }
+
+/* Temporay attach style */
+.topnav a {
+  color: #183751;
+}
+
+.topnav a:hover {
+  color: #47ABE2;
+  text-decoration: none;
+}
+
+.topnav a:focus {
+  text-decoration: none;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: rgba(231, 231, 231, 0);
+  box-shadow: inset 0 0px 0 rgba(255,255,255,0);
+}
