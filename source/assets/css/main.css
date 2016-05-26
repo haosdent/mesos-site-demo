@@ -191,8 +191,17 @@ img {
   margin-bottom: 25px;
 }
 
+.social-blk {
+  float: right;
+}
+
 @media all and (max-device-width : 992px) {
   .feature-list {
     margin-bottom: 0px;
+  }
+
+  .social-blk {
+    float: left;
+    width: 100%;
   }
 }
