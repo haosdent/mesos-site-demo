@@ -195,13 +195,37 @@ img {
   float: right;
 }
 
+a.download {
+  color: #333333;
+}
+
+a.download:hover,
+a.download:focus {
+  color: #4EADE2;
+}
+
+a.changelog {
+  color: white;
+}
+
+a.changelog:hover,
+a.changelog:focus {
+  color: #4EADE2;
+  text-decoration: none;
+}
+
 @media all and (max-device-width : 992px) {
   .feature-list {
     margin-bottom: 0px;
   }
 
+  .feature-item {
+    margin-bottom: 48px;
+  }
+
   .social-blk {
     float: left;
     width: 100%;
+    margin-bottom: 32px;
   }
 }
