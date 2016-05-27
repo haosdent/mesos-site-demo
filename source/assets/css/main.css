@@ -223,7 +223,7 @@ a.changelog:focus {
   padding-bottom: 86px;
 }
 
-@media all and (max-device-width : 992px) {
+@media all and (max-device-width : 767px) {
   .homepage.jumbotron .lead {
     font-weight: 200;
   }
@@ -245,5 +245,11 @@ a.changelog:focus {
   .main-content {
     padding-top: 36px;
     padding-bottom: 46px;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+  .navbar .nav li a {
+    padding: 8px 0 15px 8px;
   }
 }
