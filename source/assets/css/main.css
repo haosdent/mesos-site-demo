@@ -218,6 +218,11 @@ a.changelog:focus {
   font-weight: 100;
 }
 
+.main-content {
+  padding-top: 76px;
+  padding-bottom: 86px;
+}
+
 @media all and (max-device-width : 992px) {
   .homepage.jumbotron .lead {
     font-weight: 200;
@@ -235,5 +240,10 @@ a.changelog:focus {
     float: left;
     width: 100%;
     margin-bottom: 32px;
+  }
+
+  .main-content {
+    padding-top: 36px;
+    padding-bottom: 46px;
   }
 }
